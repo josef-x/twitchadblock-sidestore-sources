@@ -12,6 +12,7 @@
       "repo": "gunnerkidBT/TwitchAdBlock",
       "tag": "latest",
       "assetRegex": ".*-noplugins\\.ipa",
+      "versionLambda": "function:cleanVersion",
       "appMetadata": {
         "name": "TwitchAdBlock (No Plugins)",
         "bundleIdentifier": "tv.twitch",
