@@ -1,0 +1,39 @@
+{
+  "$schema": "https://github.com/SideStore/SideSource/raw/main/dist/schema.json",
+  "source": {
+    "name": "TwitchAdBlock",
+    "identifier": "com.gunnerkidbt.twitchadblock"
+  },
+  "inputs": [
+    {
+      "type": "github",
+      "repo": "gunnerkidBT/TwitchAdBlock",
+      "tag": "latest",
+      "assetRegex": "tv\\.twitch-[\\d.]+-TwitchAdBlock-[\\d.]+\\.ipa",
+      "appMetadata": {
+        "name": "TwitchAdBlock",
+        "bundleIdentifier": "tv.twitch",
+        "developerName": "gunnerkidBT (fork of level3tjg)",
+        "subtitle": "Full version with plugins",
+        "localizedDescription": "Modified Twitch app with full ad-blocking (proxy-based live + VOD), 7TV / BetterTTV / FrankerFaceZ emotes, Keep Live Feed Playing, settings backup & restore, Diagnostics, launch screen picker, hide Stories, and more.\n\nThis is the full version that includes app extensions/plugins.",
+        "tintColor": "9146FF",
+        "iconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/512px-Twitch_Glitch_Logo_Purple.svg.png"
+      }
+    },
+    {
+      "type": "github",
+      "repo": "gunnerkidBT/TwitchAdBlock",
+      "tag": "latest",
+      "assetRegex": ".*-noplugins\\.ipa",
+      "appMetadata": {
+        "name": "TwitchAdBlock (No Plugins)",
+        "bundleIdentifier": "tv.twitch",
+        "developerName": "gunnerkidBT (fork of level3tjg)",
+        "subtitle": "1 App ID version (recommended for free Apple IDs)",
+        "localizedDescription": "Modified Twitch app with full ad-blocking (proxy-based live + VOD), 7TV / BetterTTV / FrankerFaceZ emotes, Keep Live Feed Playing, settings backup & restore, Diagnostics, launch screen picker, hide Stories, and more.\n\nThis is the -noplugins version. It uses only 1 App ID, making it better for free Apple IDs.",
+        "tintColor": "9146FF",
+        "iconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/512px-Twitch_Glitch_Logo_Purple.svg.png"
+      }
+    }
+  ]
+}
