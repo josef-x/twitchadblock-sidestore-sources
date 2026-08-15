@@ -3,7 +3,8 @@
   "cacheTime": 15,
   "source": {
     "name": "TwitchAdBlock",
-    "identifier": "com.gunnerkidbt.twitchadblock"
+    "identifier": "com.gunnerkidbt.twitchadblock",
+    "sourceURL": "https://twitchadblock.josef-x.xyz"
   },
   "inputs": [
     {
