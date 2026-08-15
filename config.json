@@ -1,5 +1,6 @@
 {
   "$schema": "https://github.com/SideStore/SideSource/raw/main/dist/schema.json",
+  "cacheTime": 15,
   "source": {
     "name": "TwitchAdBlock",
     "identifier": "com.gunnerkidbt.twitchadblock"
